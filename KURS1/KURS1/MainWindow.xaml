@@ -1,0 +1,18 @@
+﻿<Window x:Class="KURS1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KURS1"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="460.865" Width="351.811">
+    <Grid>
+        <Button x:Name="voyti" Content="Войти" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="138,280,0,0" Click="voyti_Click" />
+        <Button x:Name="reg" Content="Регистрация" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="138,323,0,0" Click="reg_Click"/>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="120,148,0,0" />
+        <TextBox x:Name="password" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="120,213,0,0"/>
+        <Label Content="Логин" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,121,0,0"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,186,0,0"/>
+
+    </Grid>
+</Window>
